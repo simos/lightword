@@ -3,7 +3,7 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 <h2><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-<div class="comm_date"><span class="data"><span class="j"><?php the_time('j'); ?></span><br/><?php the_time('M'); ?></span><span class="nr_comm"><a class="nr_comm_spot" title="<?php comments_number(); ?>" href="<?php the_permalink(); ?>#respond"><?php comments_number('0', '1', '%' ); ?></a></span></div>
+<div class="comm_date"><span class="data"><span class="j"><?php the_time('j'); ?></span><br/><?php the_time('M'); ?><sup><?php the_time('y'); ?></sup></span><span class="nr_comm"><a class="nr_comm_spot" title="<?php comments_number(); ?>" href="<?php the_permalink(); ?>#respond"><?php comments_number('0', '1', '%' ); ?></a></span></div>
 <?php the_content(''); ?>
 <?php if ( is_single() ) : ?>
 <?php if ($lw_enjoy_post == "true" && is_attachment() != TRUE) : ?>

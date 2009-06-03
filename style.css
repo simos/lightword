@@ -72,6 +72,9 @@ ul#front_menu{width:548px;height:24px;position:relative;top:-10px;left:20px;floa
 #content-body ul,#content-body ol{margin:15px 30px;font-size:12px;}
 #content-body ul li{list-style:circle;margin-bottom:4px;}
 #content-body abbr, #content-body acronym, #content-body span.abbr{cursor:help;border-bottom:1px dotted #000;}
+#content-body sup, sub { height: 0; line-height: 1; vertical-align: baseline; _vertical-align: bottom; position: relative; }
+#content-body sup { bottom: 1ex; padding-left: 2px }
+#content-body sub { top: .5ex; }
 .hentry{min-height:150px;height:auto!important;}
 .sticky h2 a{color:red;font-weight:700;}
 .comm_date{background:#2C2C29 url(images/date_comm_box.png) no-repeat;height:100px;width:57px;position:absolute;display:inline;text-align:center;margin:-30px 0 0 -70px;z-index:2;}
