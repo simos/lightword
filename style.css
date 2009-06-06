@@ -18,7 +18,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* BASIC */
 *:focus{outline:none;}
 .clear{clear:both;}
-body{background-color:#2C2C29;font-family:Tahoma;font-size:11px;}
+body{background-color:#2C2C29;font-family:Tahoma;font-size:11px; padding-top:32px;}
 p{font-size:1.2em;padding:2px;}
 a{color:#9D9793;}
 h2{background-color:#FFF;border-bottom:1px solid #DCDCDB;letter-spacing:-1px;font-size:24px;padding-bottom:3px;font-weight:400;margin:10px 0 3px 0;font-family:Georgia;}
